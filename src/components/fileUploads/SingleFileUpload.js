@@ -28,7 +28,7 @@ class SingleFileUpload extends Component {
         return (
             <div>
                 <form onSubmit={this.handleSubmit} method='POST' encType='multipart/form-data'>
-                    example file input<br />
+                    example file input<br /> <br />
                     <input type='file' name='myImage' onChange={this.handleFileUPload}/><br/><br/>
                     <button type='submit' className='btn btn-light'>submit </button>
                 </form>
